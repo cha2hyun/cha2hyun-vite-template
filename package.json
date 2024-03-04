@@ -1,0 +1,58 @@
+{
+  "name": "@nkzw/vite-ts-react-tailwind",
+  "version": "0.0.1",
+  "author": "Christoph Nakazawa <christoph.pojer@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cpojer/vite-ts-react-tailwind.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18.19.0"
+  },
+  "dependencies": {
+    "@nextui-org/react": "^2.2.10",
+    "framer-motion": "^11.0.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4",
+    "vite-tsconfig-paths": "^4.3.1"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite dev",
+    "format": "prettier --write .",
+    "lint:format": "prettier --cache --check .",
+    "lint": "eslint --cache .",
+    "tsc:check": "tsc"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
